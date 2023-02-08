@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = input()
 response = openai.Completion.create(
     model='ada:ft-personal:gptb-2023-02-08-17-14-20',
     prompt='From the President: My Resignation',
